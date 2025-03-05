@@ -109,7 +109,7 @@ def run_breathing_animation(viz_placeholder, instruction_placeholder, inhale_tim
         while st.session_state.running:
             # Inhale phase
             instruction_placeholder.markdown("## Inhale")
-            steps = 20  # Number of animation steps
+            steps = 2000  # Number of animation steps
             
             for i in range(steps + 1):
                 progress = i / steps
